@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Grand Kru Quizzing Team Gallery</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+    background:linear-gradient(rgb(255, 255, 174), rgb(162, 174, 161), green);
+    color:#333;
+
+}
+
+
+/* HEADER */
+
+header{
+
+    background: #333;
+    color:white;
+    padding: 10px;
+    text-align:center;
+}
+
+
+header h1{
+
+    font-size:24px;
+
+}
+
+
+header p{
+
+    margin-top:6px;
+
+}
+
+
+
+/* GALLERY TITLE */
+
+.title{
+
+    text-align:center;
+    margin:40px 0 20px;
+
+}
+
+
+.title h2{
+
+    color:rgb(88, 5, 255);
+    font-size:28px;
+
+}
+
+
+
+
+/* IMAGE AREA */
+
+.gallery{
+
+
+    width:90%;
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(180px,1fr));
+
+    gap:20px;
+
+}
+
+
+
+.photo{
+
+
+    height:180px;
+    overflow:hidden;
+    background:white;
+
+}
+
+
+.photo img{
+
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+
+
+.photo img:hover{
+
+    transform:scale(1.15);
+
+}
+
+
+
+
+
+/* VIDEO AREA */
+
+
+.video-area{
+
+
+    width:90%;
+    margin:40px auto;
+
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+
+    gap:25px;
+
+}
+
+
+
+.video{
+
+
+    background:white;
+    padding:10px;
+    border-radius:15px;
+
+}
+
+
+
+.video video{
+
+
+    width:100%;
+    height:250px;
+    border-radius:10px;
+
+}
+
+
+
+/* FOOTER */
+
+
+footer{
+
+
+    margin-top:50px;
+    background:green;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<header>
+
+<h1>
+Grand Kru County Quizzing Team
+</h1>
+
+<p>
+
+</p>
+
+</header>
+
+
+
+
+
+
+<div class="title">
+
+<h2>
+Camp photo
+</h2>
+
+</div>
+
+
+
+
+
+<!-- FOUR IMAGE AREAS -->
+
+
+<section class="gallery">
+
+
+<div class="photo">
+
+<img src="grand1.jpg">
+</div>
+
+
+
+<div class="photo">
+
+<img src="grand2.jpg">
+
+</div>
+
+
+
+<div class="photo">
+
+<img src="team4.jpg">
+
+</div>
+
+
+
+<div class="photo">
+
+<img src="team3.jpg">
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<div class="title">
+
+<h2>
+Video 
+</h2>
+
+</div>
+
+
+
+
+
+<!-- TWO VIDEO AREAS -->
+<p>Quizzer pressing each other back with presing iron🤣</p> 
+
+<section class="video-area">
+
+
+<div class="video">
+
+<video controls>
+
+<source src="back.mp4"
+type="video/mp4">
+
+Your browser does not support video.
+
+</video>
+
+
+</div>
+
+
+
+
+
+<div class="video">
+
+
+<video controls>
+
+<source src="video.mp4"
+type="video/mp4">
+
+
+Your browser does not support video.
+
+</video>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<footer>
+
+
+© 2026 Grand Kru County Quizzing Team
+
+
+</footer>
+
+
+
+</body>
+
+</html>
